@@ -27,7 +27,7 @@
     padding: 9px 30px;
 }
 .all-button-style:hover{
-    box-shadow: 3px 3px 15px gray;
+    box-shadow: 1px 1px 25px gray;
     color: gray;
     background-image: linear-gradient(to right, rgb(166, 241, 214),rgb(130, 216, 184));
 }
@@ -72,10 +72,50 @@
 .card{
     border-radius: 15px;
     border: none;
-    box-shadow: 2px 2px 10px lightgray;
+    box-shadow: 1px 1px 15px lightgray;
 }
-.card-footer{
-    color: none;
-    background-color:;
-    border: none;
+.card:hover{
+    box-shadow: 0px 0px 60px lightgray;
+    background-color: aliceblue;
+}
+
+h2{
+   
+    text-align: center;
+    font-weight:bold;
+    color: rgb(71,35,90);
+
+}
+h2:hover{
+    box-shadow: 0px 0px 50px lightgray;
+    border-radius: 100px;
+    color: gray;
+}
+.col-md-3{
+    padding-top: 5%;
+}
+.testi_img:hover{
+    border-radius: 130px;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 30px lightgray;
+
+}
+
+.other_item_head{
+    font-size: 19px;
+}
+.other_item_head:hover{
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px whitesmoke;
+    font-weight: bold;
+    background-color: rgb(255, 230, 197);
+    color: black;
+}
+.other_item:hover{
+    
+    
+    border-radius: 3px;
+    box-shadow: 0px 0px 30px white;
+    font-weight: bold;
+    font-size: 16px;
 }
